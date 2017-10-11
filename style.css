@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+/*--- Media Queries --*/
+
+@media screen and (max-width: 900px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 480px) {}
+
+.container {
+  width: 600px;
+  margin: auto;
+}
+
+nav a {
+  -webkit-webkit-transition-duration: 0.4s;
+  -moz-webkit-transition-duration: 0.4s;
+  -ms-webkit-transition-duration: 0.4s;
+  -o-webkit-transition-duration: 0.4s;
+  webkit-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  font-size: 50px;
+  font-family: verdana;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  margin-left: 20px;
+  /*color: #4CAF50;*/
+	color: black;
+}
+nav a:before {
+	-webkit-webkit-transition-duration: 0.8s;
+  -moz-webkit-transition-duration: 0.8s;
+  -ms-webkit-transition-duration: 0.8s;
+  -o-webkit-transition-duration: 0.8s;
+  webkit-transition-duration: 0.8s;
+  -webkit-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+	color: #4CAF50;
+	opacity: 0;
+	margin-left: -10px;
+	content: "|";
+
+}
+nav a:hover::before {
+	opacity: 100;
+
+}
+
+.textInput {
+  -webkit-webkit-transition-duration: 0.4s;
+  -moz-webkit-transition-duration: 0.4s;
+  -ms-webkit-transition-duration: 0.4s;
+  -o-webkit-transition-duration: 0.4s;
+  webkit-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin-top: 25%;
+  font-size: 30px;
+  line-height: 60px;
+  border: none;
+  outline: none;
+  background-color: #cccbcb;
+  width: 85%;
+  text-indent: 10px;
+  color: #9d9d9d;
+  vertical-align: middle;
+}
+
+.textInput:hover, .textInput:focus {
+  background: #e4e4e4;
+  margin-left: 20px;
+  text-indent: 20px;
+  color: black;
+  /*border: .1px solid black;*/
+}
+
+.button {
+  -webkit-webkit-transition-duration: 0.4s;
+  -moz-webkit-transition-duration: 0.4s;
+  -ms-webkit-transition-duration: 0.4s;
+  -o-webkit-transition-duration: 0.4s;
+  webkit-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  outline: none;
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  height: 62px;
+  padding: 10px;
+  vertical-align: middle;
+  margin-top: 25%;
+}
+
+.button1 {
+  background-color: white;
+  color: #4CAF50;
+  /*border: 2px solid #4CAF50;*/
+  margin-left: -5px;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
